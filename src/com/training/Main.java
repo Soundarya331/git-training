@@ -14,12 +14,12 @@ public class Main {
 		Class.forName("org.postgresql.Driver");
 		Connection conn = DriverManager.getConnection(url,username, password);
 		if(conn != null) {
-			System.out.println("Connected Successfully...");
+			System.out.println("Connected Successfull... Prove it ");
 		}
 		else {
-			System.out.println("Connection failed..");
+			System.err.println("Connection failed..");
 		}
- System.out.println("heloo guys");
+
 	}
 
 }
