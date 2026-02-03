@@ -18,12 +18,7 @@ public class Main {
 		String password="pass123";
 		Class.forName("org.postgresql.Driver");
 		Connection conn = DriverManager.getConnection(url,username, password);
-		if(conn != null) {
-			System.out.println("Connected Successfully...");
-		}
-		else {
-			System.out.println("Connection failed..");
-		}
+		
  System.out.println("heloo guys");
 	}
 
