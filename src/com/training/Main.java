@@ -12,7 +12,7 @@ public class Main {
 		System.out.println("Hey, This can be a Merge conflict");
 	}
 
-	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+	public static void main(String[] args) throws Exception {
 		System.out.println("Hello World!!");
 		String url = "jdbc:postgresql://localhost:5432/testdb";
 		String username = "postgres";
